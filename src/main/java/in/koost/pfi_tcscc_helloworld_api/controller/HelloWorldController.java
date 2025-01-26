@@ -10,7 +10,7 @@ public class HelloWorldController {
 
 
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     public ResponseEntity<String> greet(){
         return new ResponseEntity<>("Hellow World", HttpStatus.OK);
     }
